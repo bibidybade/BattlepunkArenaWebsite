@@ -27,7 +27,7 @@ import community from "../public/assets/images/still-assets/communityicon.png";
 import governance from "../public/assets/images/still-assets/governanceicon.png";
 import playtoearn from "../public/assets/images/still-assets/playtoearnicon.png";
 import Header from "../components/header/Header.jsx";
-import '/styles/theme/fonts-module.css'
+import '/styles/theme/fonts.module.css'
 
 export default function Home(props) {
   const [scrolled, setScrolled] = useState(false);
