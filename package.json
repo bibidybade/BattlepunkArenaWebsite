@@ -1,9 +1,9 @@
 {
-  "name": "axie_infinity",
+  "name": "Battlepunk_Arena",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "CI=false next build",
     "export": "next export",
     "start": "next start",
     "lint": "next lint"
@@ -31,6 +31,7 @@
     "react-dom": "17.0.2",
     "react-native": "^0.67.1",
     "surge": "^0.23.1",
+    "url-loader": "^4.1.1",
     "use-pan-and-zoom": "^0.6.5"
   },
   "devDependencies": {
