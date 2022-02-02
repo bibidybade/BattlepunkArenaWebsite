@@ -9,11 +9,6 @@ import {
   Link,
 } from "@chakra-ui/react";
 import React from "react";
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
-
-import cardssecbg from "../../public/assets/images/still-assets/museum-room.png";
-import { createBreakpoints } from "@chakra-ui/theme-tools";
 
 const EarnSection = () => {
   return (

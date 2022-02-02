@@ -14,8 +14,6 @@ import {
 import Link from 'next/link'
 import { ChevronDownIcon, HamburgerIcon } from '@chakra-ui/icons'
 import { } from '@chakra-ui/icons'
-import buttonleftbg from '../../public/assets/images/still-assets/button-left.png'
-import buttonrightbg from '../../public/assets/images/still-assets/button-right.png'
 const MobileHeader = () => {
 
 

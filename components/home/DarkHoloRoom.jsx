@@ -1,7 +1,5 @@
 import React from "react";
 import { Stack, Box, Text } from "@chakra-ui/react";
-import darkholoroom from "../../public/assets/images/still-assets/dark-holo-room.png";
-import Image from "next/image";
 
 const DarkHoloRoom = () => {
   return (

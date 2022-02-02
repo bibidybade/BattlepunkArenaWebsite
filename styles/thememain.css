@@ -198,8 +198,8 @@
   }
 
   @keyframes coinmove {
-    from {transform: translateY(-20px);}
-    to {transform: translateY(20px);}
+    from {transform: translateY(-30px);}
+    to {transform: translateY(10px);}
   }
 
   @keyframes iconmove {
@@ -209,22 +209,22 @@
 
   @keyframes bearmove {
     from {transform: translateY(0px);}
-    to {transform: translateY(10px);}
+    to {transform: translateY(6px);}
   }
 
   @keyframes catmove {
     from {transform: translateY(0px);}
-    to {transform: translateY(20px);}
+    to {transform: translateY(8px);}
   }
 
   @keyframes octopusmove {
     from {transform: translateY(0px);}
-    to {transform: translateY(15px);}
+    to {transform: translateY(7px);}
   }
 
   @keyframes mitemove {
     from {transform: translateY(0px);}
-    to {transform: translateY(12px);}
+    to {transform: translateY(6px);}
   }
 
   .absolute {

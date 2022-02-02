@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { useEffect, useState, useLayoutEffect, Component } from "react";
-import { render } from "react-dom";
 import $ from "jquery";
 
 import {
@@ -12,23 +11,11 @@ import {
   Button,
   Heading,
 } from "@chakra-ui/react";
-import HeroSection from "../components/home/HeroSection.jsx";
-import planet1 from "../public/assets/images/still-assets/planet-1.png";
-import planet2 from "../public/assets/images/still-assets/planet-2.png";
-import planet3 from "../public/assets/images/still-assets/planet-3.png";
-import planet4 from "../public/assets/images/still-assets/planet-4.png";
 import sitebg from "../public/assets/images/still-assets/site-bg.png";
 import holoscreen from "../public/assets/images/still-assets/holoscreen.png";
-import Spaceship from "../public/assets/images/still-assets/spaceship.png";
 import lsdbg from "../public/assets/images/still-assets/lsdbg.png";
 import Link from "next/link";
 import Image from "next/image";
-import EarnSection from "../components/home/EarnSection.jsx";
-import WarRoom from "../components/home/WarRoom.jsx";
-import DarkHoloRoom from "../components/home/DarkHoloRoom.jsx";
-import OwlRoom from "../components/home/OwlRoom.jsx";
-import HoloVideo from "../components/home/HoloVideo.jsx";
-import CSVideo from "../components/home/CSVideo.jsx";
 import Lsdhero from "../components/home/lsdhero.jsx";
 import discordicon from "../public/assets/images/still-assets/discord.png";
 import instaicon from "../public/assets/images/still-assets/insta.png";
@@ -79,7 +66,7 @@ export default function Home(props) {
     <>
       <div
         style={{
-          overflow: "hidden",
+          overflow: "hidden"
         }}
       >
         <Header />

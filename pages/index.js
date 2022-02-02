@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React, { useEffect, useState, useLayoutEffect, Component } from "react";
-import { render } from "react-dom";
+import logo from "../public/assets/images/still-assets/logo.png";
+import LoadingScreen from "./splashscreen";
 import $ from "jquery";
 
 import { VStack, Box, Text, Stack, HStack } from "@chakra-ui/react";
@@ -26,10 +27,16 @@ import lastsocial from "../public/assets/images/still-assets/last-social.png";
 import Header from "../components/header/Header.jsx";
 
 export default function Home(props) {
+  
   const [scrolled, setScrolled] = useState(false);
 
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000)
+  }, []);
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
@@ -48,18 +55,35 @@ export default function Home(props) {
     };
   }, []);
 
-  class App extends Component {
-    componentDidMount() {
-      const h1 = $("h1");
-      console.log(h1);
-    }
-    render() {
-      return <h1>Hello React</h1>;
-    }
+  function App() {
   }
+  
 
   return (
     <>
+    <>
+    {loading === false ? (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+      ) : (
+        <LoadingScreen />
+      )}
+      </>
+
       <div
         style={{
           overflow: "hidden",

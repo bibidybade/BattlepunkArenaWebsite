@@ -8,6 +8,7 @@ const theme = extendTheme({
     shadows: {
         outline: 'none',
     },
+    
 
     components: {
         Button: {

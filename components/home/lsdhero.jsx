@@ -9,14 +9,9 @@ import {
 } from "@chakra-ui/react";
 import { React, useState, useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
-// import herocard1 from "../../public/assets/images/hologram_01.svg";
-import herobg from "../../public/assets/images/still-assets/hero_planet.png";
-import herobearship from "../../public/assets/images/still-assets/hero_bearship.png";
-import herosmitten from "../../public/assets/images/still-assets/hero_smitten.png";
-import heroarmed from "../../public/assets/images/still-assets/hero_armed.png";
 import herometeormite from "../../public/assets/images/still-assets/hero_meteormite.png";
 import lsdpanel from "../../public/assets/images/still-assets/lsdpanel1.png";
-import coin from "../../public/assets/images/still-assets/coin.png";
+import coin from "../../public/assets/images/still-assets/coin1.png";
 
 // import planet1 from "../../public/assets/images/still-assets/planet-1.png";
 // import Image from 'next/image';

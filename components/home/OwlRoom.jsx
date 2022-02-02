@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Stack, HStack, VStack, Text, Box } from '@chakra-ui/react'
-import owlroom from '../../public/assets/images/still-assets/lore-room-2.png'
 import Image from 'next/image'
 import lorescreen from '../../public/assets/images/still-assets/lore-scroll-screen.png'
 

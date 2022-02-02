@@ -4,16 +4,9 @@ import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 import Image from "next/image";
 import headerBg from "../../public/assets/images/still-assets/navbar.png";
-// import logo from '../../public/assets/images/cropped-logo.webp'
-// import headerTag from '../../public/assets/images/navbutton_button.png'
-import buttonleftbg from "../../public/assets/images/still-assets/button-left.png";
-import buttonrightbg from "../../public/assets/images/still-assets/button-right.png";
 
 import Link from "next/link";
-// import earnbuttonsbg from "../../public/assets/images/navbutton_button_sm.png"
-import { ChevronDownIcon } from "@chakra-ui/icons";
 import MobileHeader from "../home/MobileHeader";
-// import MobileHeader from "./MobileHeader";
 
 const Header = () => {
   const ChakraNextImage = chakra(Image);

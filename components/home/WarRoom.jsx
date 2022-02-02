@@ -2,16 +2,12 @@ import React from "react";
 
 
 import { Stack, HStack, VStack, Box, Button, Text } from "@chakra-ui/react";
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
-
 import Image from "next/image";
 import Link from "next/link";
 import discordicon from "../../public/assets/images/still-assets/discord.png";
 import instaicon from "../../public/assets/images/still-assets/insta.png";
 import twittericon from "../../public/assets/images/still-assets/twitter.png";
 import lastsocial from "../../public/assets/images/still-assets/last-social.png";
-import warbg from "../../public/assets/images/still-assets/war-room.png";
 const WarRoom = () => {
   return (
     <>
@@ -60,6 +56,9 @@ const WarRoom = () => {
             height={["4.5vw"]}
             cursor={"pointer"}
           >
+            <Text left={["visible", "hidden", "hidden", "hidden", "hidden", "hidden"]}>
+            <br/>
+            </Text>
             <Link href="https://discord.gg/battlepunkarena" passHref>
               <Image src={discordicon} alt="Discor Link"/>
             </Link>
@@ -75,6 +74,9 @@ const WarRoom = () => {
             height={["4.5vw"]}
             cursor={"pointer"}
           >
+          <Text left={["visible", "hidden", "hidden", "hidden", "hidden", "hidden"]}>
+          <br/>
+          </Text>
             <Link href="https://www.instagram.com/battlepunkarena/" passHref>
               <Image src={instaicon} alt={"Instagram Link"}/>
             </Link>
@@ -90,6 +92,9 @@ const WarRoom = () => {
             height={["4.5vw"]}
             cursor={"pointer"}
           >
+          <Text left={["visible", "hidden", "hidden", "hidden", "hidden", "hidden"]}>
+          <br/>
+          </Text>
             <Link href="https://twitter.com/BattlepunkNFT" passHref>
               <Image src={twittericon} alt={"twitter link"}/>
             </Link>
@@ -105,6 +110,9 @@ const WarRoom = () => {
             height={["4.5vw"]}
             cursor={"pointer"}
           >
+          <Text left={["visible", "hidden", "hidden", "hidden", "hidden", "hidden"]}>
+          <br/>
+          </Text>
             <Link href="https://opensea.io/" passHref>
               <Image src={lastsocial} alt={"Opensea Link"}/>
             </Link>
