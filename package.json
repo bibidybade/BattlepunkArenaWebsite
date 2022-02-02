@@ -11,8 +11,8 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.3",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -27,10 +27,8 @@
     "next-optimized-images": "^2.6.2",
     "next-videos": "1.4.0",
     "react": "17.0.2",
-    "react-animation-loader": "^1.0.5",
     "react-bootstrap": "^2.1.1",
     "react-dom": "17.0.2",
-    "react-fast-image": "^0.0.30",
     "react-native": "^0.67.1",
     "surge": "^0.23.1",
     "use-pan-and-zoom": "^0.6.5"

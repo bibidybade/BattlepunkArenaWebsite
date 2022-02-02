@@ -1450,7 +1450,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
-"@emotion/react@^11.7.1":
+"@emotion/react@11":
   version "11.7.1"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.7.1.tgz#3f800ce9b20317c13e77b8489ac4a0b922b2fe07"
   integrity sha512-DV2Xe3yhkF1yT4uAUoJcYL1AmrnO5SVsdfvu+fBuS7IbByDeTVx9+wFmvx9Idzv7/78+9Mgx2Hcmr7Fex3tIyw==
@@ -1479,7 +1479,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.0.tgz#56d99c41f0a1cda2726a05aa6a20afd4c63e58d2"
   integrity sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==
 
-"@emotion/styled@^11.6.0":
+"@emotion/styled@11":
   version "11.6.0"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.6.0.tgz#9230d1a7bcb2ebf83c6a579f4c80e0664132d81d"
   integrity sha512-mxVtVyIOTmCAkFbwIp+nCjTXJNgcz4VWkOYQro87jE2QBTydnkiYusMrRGFtzuruiGK4dDaNORk4gH049iiQuw==
@@ -3184,7 +3184,7 @@ classnames@2.2.6:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
-classnames@^2.2.6, classnames@^2.3.1:
+classnames@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -7031,11 +7031,6 @@ raw-loader@^2.0.0:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-react-animation-loader@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/react-animation-loader/-/react-animation-loader-1.0.5.tgz#b1d6f20ccc0fe98c9ce45b048db17885d1ff4373"
-  integrity sha512-eQOAi4DSYlh/hfC2KBc+Zd4wdv1Oc8hxgBe4lSQC/R1sQ6kc5qOEjtDn5mDEMQctW9pF7qiGH6TgxBtUQFolKg==
-
 react-bootstrap@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-2.1.1.tgz#a2f162fdda5275e89712ce4ca525ace661a48131"
@@ -7087,15 +7082,6 @@ react-fast-compare@3.2.0:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-fast-image@^0.0.30:
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/react-fast-image/-/react-fast-image-0.0.30.tgz#ce291b69d439e4b35d591aa7cfb5f5a954ebb74f"
-  integrity sha512-0ewosax6h4wP9v0yzXf5LTm/QuBW4TDkMZ6aXYGfunn60XW03VYYDYzKXQdL2C6tWmTYwoixjnTtBXI+DgNFBA==
-  dependencies:
-    classnames "^2.2.6"
-    react-img-tag "^0.0.2"
-    react-video-tag "^0.0.10"
-
 react-focus-lock@2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/react-focus-lock/-/react-focus-lock-2.5.2.tgz#f1e4db5e25cd8789351f2bd5ebe91e9dcb9c2922"
@@ -7107,11 +7093,6 @@ react-focus-lock@2.5.2:
     react-clientside-effect "^1.2.5"
     use-callback-ref "^1.2.5"
     use-sidecar "^1.0.5"
-
-react-img-tag@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/react-img-tag/-/react-img-tag-0.0.2.tgz#b666147fe979ccf183d4bccb0d9768166c755c21"
-  integrity sha512-ox7Ut5irQQ8M1QE/6HfwB4AfKyiobTBY2iwhkilgz7+FXnwbRnjZZ2EG2O4EvZlKm1v1ZvahwZfjMqfweu5d+Q==
 
 react-is@17.0.2, react-is@^17.0.1:
   version "17.0.2"
@@ -7220,11 +7201,6 @@ react-transition-group@^4.4.1:
     dom-helpers "^5.0.1"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
-
-react-video-tag@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/react-video-tag/-/react-video-tag-0.0.10.tgz#eace2386a77cd17351a9cac7497856aa7d4be25d"
-  integrity sha512-vwe5S9snuflOKjDv6nOFDxyeZ5gCZ5/g83rFp5x7BHmD+Y2mMuCMDVwFeeZWQwjgW5Nwmga870/J2Op0olBikg==
 
 react@17.0.2:
   version "17.0.2"
