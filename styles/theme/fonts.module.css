@@ -1,22 +1,6 @@
 @font-face {
   font-family: 'Montserrat', sans-serif;
-  src: url('./MontserratAlternates-Regular.otf');
-}
-
-@font-face {
-  font-family: 'Open-Sans', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-}
-
-@font-face {
-  font-family: 'Obvia', expanded;
-  src: url('./ObviaExpanded.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url('./Roboto-Regular.ttf');
+  src: url(./MontserratAlternates-Regular.otf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-

@@ -2,8 +2,8 @@ import { extendTheme } from "@chakra-ui/react";
 import './fonts.module.css'
 const theme = extendTheme({
     fonts: {
-        heading: 'Obvia',
-        body: 'Obvia',
+        heading: 'Montserrat',
+        body: 'Montserrat',
     },
     shadows: {
         outline: 'none',

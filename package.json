@@ -20,6 +20,7 @@
     "@tippyjs/react": "^4.2.6",
     "all": "^0.0.0",
     "aos": "^2.3.4",
+    "file-loader": "^6.2.0",
     "framer-motion": "4",
     "jquery": "^3.6.0",
     "next": "12.0.7",
