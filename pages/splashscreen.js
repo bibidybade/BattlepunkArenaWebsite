@@ -15,7 +15,7 @@ import splashbg from "../public/assets/images/still-assets/splashbg.png";
 import Image from "next/image";
 import logo from "../public/assets/images/still-assets/logo.png";
 import Header from "../components/header/Header.jsx";
-import '/styles/theme/fonts.module.css'
+import '/styles/theme/fonts-module.css'
 
 export default function Home(props) {
   const [scrolled, setScrolled] = useState(false);

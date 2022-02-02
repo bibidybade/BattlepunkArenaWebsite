@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Montserrat', sans-serif;
-  src: url(./MontserratAlternates-Regular.otf);
+  src: url('./MontserratAlternates-Regular.otf');
 }
 
 @font-face {
@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: 'Obvia', expanded;
-  src: url(./ObviaExpanded.ttf);
+  src: url('./ObviaExpanded.ttf');
 }
 
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url(./Roboto-Regular.ttf);
+  src: url('./Roboto-Regular.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
