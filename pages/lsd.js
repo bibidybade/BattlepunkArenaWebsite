@@ -40,6 +40,10 @@ export default function Home(props) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    document.title = "Battlepunk Arena: $LSD"
+  }, []);
+
   useLayoutEffect(() => {
     const handleScroll = (e) => {
       setScrolled(window.scrollY > 5500);

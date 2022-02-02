@@ -37,6 +37,11 @@ export default function Home(props) {
   useEffect(() => {
     setTimeout(() => setLoading(false), 6000)
   }, []);
+
+  useEffect(() => {
+    document.title = "Battlepunk Arena"
+  }, []);
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
