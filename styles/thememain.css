@@ -1,0 +1,460 @@
+@media screen and (max-width:1023px) {
+    .footer-icon-box {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .top-planet-graphics {
+        width: 200px;
+    }
+
+}
+
+@media screen and (min-width:1610px) and (max-width:1620px) {
+    .darkholo-sec .section-inner-content .inner-box:nth-child(2) {
+        left: 44%;
+    }
+
+    .earn-sec .section-inner-content .inner-box {
+        top: 73%;
+        margin-inline-start: 6.4em;
+    }
+
+    .earn-sec .section-inner-content .first-box {
+        top: 73%;
+    }
+
+    .owlroom-sec .section-inner-content {
+        top: 39%;
+    }
+
+    .owlroom-sec .section-inner-content .owlscrollbox-outer {
+        margin-inline-start: 4em;
+    }
+}
+
+@media screen and (min-width:1270px) and (max-width:1280px) {
+    .earn-sec .section-inner-content .inner-box {
+        top: 72%;
+        margin-inline-start: 5.1em;
+    }
+
+    .earn-sec .section-inner-content .first-box {
+        left: 19%;
+    }
+    .lsd-distribution p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:910px) and (max-width:920px) {
+    .holo-video-sec {
+        top: 48.4% !important;
+    }
+    .lsd-distribution p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width:767.98px) {
+    .top-planet-graphics {
+        width: 150px;
+    }
+
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+}
+
+.spaceship-img {
+    z-index: 1;
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    .earn-sec .section-inner-content .first-box {
+        top: 66.5%;
+        left: 19%;
+    }
+
+    .earn-sec .section-inner-content .inner-box {
+        top: 66.5%;
+    }
+
+    .earn-sec .section-inner-content .inner-box:nth-child(2) {
+        left: 34%;
+    }
+
+    .earn-sec .section-inner-content .inner-box:nth-child(3) {
+        left: 51%;
+    }
+
+    .earn-sec .section-inner-content .inner-box:nth-child(4) {
+        left: 67%;
+    }
+
+    .warroom-icon-box {
+        top: 16.7% !important;
+    }
+
+    .warroom-icon-box:nth-child(2) {
+        left: 42.2%;
+    }
+
+    .warroom-icon-box:nth-child(3) {
+        left: 47.9%;
+    }
+
+    .warroom-icon-box:nth-child(4) {
+        left: 53.4%;
+    }
+
+    .war-room-sec .mint-now-box {
+        top: 13.4%;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .warroom-icon-box {
+        top: 16.5% !important;
+    }
+
+    .warroom-icon-box:nth-child(2) {
+        left: 42%;
+    }
+
+    .warroom-icon-box:nth-child(3) {
+        left: 47.5%;
+    }
+
+    .warroom-icon-box:nth-child(4) {
+        left: 53.5%;
+    }
+
+    .war-room-sec .mint-now-box {
+        top: 12.8%;
+    }
+
+    .darkholo-sec .inner-box {
+        top: 22%;
+    }
+
+    .holo-video-sec {
+        top: 44.5% !important;
+    }
+
+    .owlroom-sec .section-inner-content {
+        top: 34%;
+    }
+
+    .earn-sec .section-inner-content .first-box {
+        top: 65%;
+    }
+
+    .earn-sec .section-inner-content .inner-box {
+        top: 65%;
+    }
+
+    .earn-sec .section-inner-content .inner-box:nth-child(3) {
+        left: 49%;
+    }
+
+    .earn-sec .section-inner-content .inner-box:nth-child(4) {
+        left: 66%;
+    }
+
+    /* Lunar System Dollar Page */
+
+    .lsd-distribution{
+        width: 34% !important;
+    }
+    .lsd-distribution .second-para{
+        padding-top: 4px;
+    }
+
+    .lsdtext{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* End Lunar System Dollar Page */
+
+}
+
+.moveArrow {
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+  }
+  
+  @keyframes mymove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }
+
+  @keyframes coinmove {
+    from {transform: translateY(-20px);}
+    to {transform: translateY(20px);}
+  }
+
+  @keyframes iconmove {
+    from {transform: translateY(-7px);}
+    to {transform: translateY(0px);}
+  }
+
+  @keyframes bearmove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(10px);}
+  }
+
+  @keyframes catmove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }
+
+  @keyframes octopusmove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(15px);}
+  }
+
+  @keyframes mitemove {
+    from {transform: translateY(0px);}
+    to {transform: translateY(12px);}
+  }
+
+  .absolute {
+    z-index: 1;
+    position:absolute;
+    width: 100%;
+    height:500px;
+  }
+
+  .animated {
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+    position: absolute;
+  }
+
+  .animatedbear {
+    animation-name : bearmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 4s;
+    position: absolute;
+  }
+
+  .animatedcat {
+    animation-name : catmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3.6s;
+    position: absolute;
+  }
+
+  .animatedoctopus {
+    animation-name : octopusmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3.7s;
+    position: absolute;
+  }
+
+  .animatedmite {
+    animation-name : mitemove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3.6s;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.coinfloat{
+    animation-name : coinmove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 4s;
+    position: absolute;
+}
+
+    .iconfloatB{
+        animation-name : iconmove;
+        animation-iteration-count : infinite;
+        animation-direction :alternate-reverse;
+        animation-duration : 2.5s;
+        
+}
+
+.iconfloatS{
+    animation-name : coinmove;
+    animation-iteration-count : infinite;
+    animation-direction :alternate-reverse;
+    animation-duration : 2s;
+    
+}
+
+.tippy-box[data-theme~='tomato'] {
+    background-color: tomato;
+    color: yellow;
+  }
+
+  .tippy-box[data-theme~='hologram'] {
+      background-color: rgba(0, 255, 242, 0.747);
+      color: rgb(255, 255, 255);
+      font-size: large;
+    }
+
+    .tippy-box[data-theme~='bigger'] {
+        font-size: medium;
+        text-transform: uppercase;
+      }
+
+      .a {
+          cursor: pointer;
+      }
+
+      .button {
+          cursor:pointer;
+      }
+
+    
+
+
+/* .warroom-social-icon{
+    max-width: 60px !important;
+    max-height: 60px !important;
+} */
+/* @media only screen and (min-width:1599px) and (max-width:1620px) {
+
+    .header-wrapper .headrLink {
+        padding-top: 0.5rem;
+    }
+
+    .section {
+        height: 408px !important;
+    }
+
+    .war-room-sec {
+        margin-top: 12em !important;
+    }
+
+    .darkholo-sec .section-inner-content {
+        margin-top: 6em !important;
+        width: 88%;
+    }
+
+    .darkholo-sec .section-inner-content .inner-box {
+        margin-inline-start: 9.3em !important;
+    }
+
+    .darkholo-sec .section-inner-content .inner-box .chakra-text {
+        max-width: 120px;
+    }
+
+    .owlroom-sec .section-inner-content {
+        Padding-top: 4em !important;
+    }
+
+    .owlroom-sec .owlscrollbox-outer {
+        width: 40%;
+        margin-inline-start: 6em;
+    }
+
+    .earn-sec .section-inner-content {
+        margin-top: 186px;
+    }
+
+    .earn-sec .section-inner-content .inner-box {
+        margin-inline-start: 6em;
+        max-width: 149px;
+    }
+
+    .header-bottom-area {
+        padding-top: 0px !important;
+    }
+
+} */
+
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+    .earn-sec .section-inner-content {
+        padding-top: 2px;
+    }
+}
+
+/* @media only screen and (min-width:1360px) and (max-width:1366px) {
+
+    
+
+    .earn-sec .section-inner-content {
+        margin-inline-start: 4.5em !important;
+    }
+
+    .darkholo-sec .section-inner-content {
+        margin-inline-start: 13em;
+    }
+
+    .darkholo-sec .section-inner-content .inner-box {
+        max-width: 100px;
+    }
+
+    .earn-sec .section-inner-content {
+        margin-top: 124px;
+    }
+
+    .earn-sec .section-inner-content .inner-box {
+        margin-inline-start: 5.4em;
+        max-width: 124px;
+    }
+
+    .earn-sec .section-inner-content .first-box {
+        margin-left: 1em;
+    }
+} */
+
+
+
+/* @media  screen and (max-width:480px)  {
+
+
+    .darkholo-sec {
+        height: 8rem !important;
+    }
+
+    .darkholo-sec {
+        height: 8rem !important;
+    }
+
+    .owlroom-sec {
+        height: 8rem !important;
+    }
+
+
+} */
+
+/* @media only screen and (min-width:320px) and (max-width:375px)  {
+
+
+    .darkholo-sec {
+        height: 7.8rem !important;
+    }
+
+    .darkholo-sec {
+        height: 7.8rem !important;
+    }
+
+    .owlroom-sec {
+        height: 7.5rem !important;
+    }
+
+
+} */
